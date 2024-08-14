@@ -5,13 +5,19 @@
             "type": "flint-debug",
             "request": "launch",
             "name": "Debug with FlintJVM",
-            "launchFlintJVMServerCommand": "${workspaceFolder}/FlintJVMUartServer COM15",
+            "cwd": "Bin",
             "install": true,
             "mainClass": "main",
-            "classPath": "${workspaceFolder}/Bin",
-            "sourcePath": "${workspaceFolder}/Src",
-            "jdkClassPath": "${workspaceFolder}/../../FlintJDK/Bin",
-            "jdkSourcePath": "${workspaceFolder}/../../FlintJDK/Src",
+            "classPath": [
+                "../../../JDK/FlintJDK/Bin/java.base",
+                "../../../JDK/FlintESPJDK/Bin/esp.io",
+            ],
+            "sourcePath": [
+                "Src",
+                "../../../JDK/FlintJDK/Src/java.base",
+                "../../../JDK/FlintESPJDK/Src/esp.io",
+            ],
+            "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintJVMUartServer COM15",
         }
     ]
 }

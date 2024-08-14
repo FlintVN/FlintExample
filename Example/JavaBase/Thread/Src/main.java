@@ -11,6 +11,8 @@ public class main {
             }
         });
 
+        thread1.start();
+
         while(true) {
             System.out.println("Hello from main");
             sleep(100);
