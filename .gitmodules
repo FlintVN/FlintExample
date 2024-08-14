@@ -1,0 +1,6 @@
+[submodule "JDK/FlintJDK"]
+	path = JDK/FlintJDK
+	url = https://github.com/FlintVN/FlintJDK.git
+[submodule "JDK/FlintESPJDK"]
+	path = JDK/FlintESPJDK
+	url = https://github.com/FlintVN/FlintESPJDK.git
