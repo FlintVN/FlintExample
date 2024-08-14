@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "flint-debug",
+            "request": "launch",
+            "name": "Debug with FlintJVM",
+            "launchFlintJVMServerCommand": "${workspaceFolder}/FlintJVMUartServer COM15",
+            "install": true,
+            "mainClass": "main",
+            "classPath": "${workspaceFolder}/Bin",
+            "sourcePath": "${workspaceFolder}/Src",
+            "jdkClassPath": "${workspaceFolder}/../../FlintJDK/Bin",
+            "jdkSourcePath": "${workspaceFolder}/../../FlintJDK/Src",
+        }
+    ]
+}
