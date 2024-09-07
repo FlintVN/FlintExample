@@ -15,7 +15,7 @@
                 "Src",
                 "../../../JDK/FlintJDK/Src/java.base",
             ],
-            "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintJVMUartServer COM15",
+            "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM15",
         }
     ]
 }
