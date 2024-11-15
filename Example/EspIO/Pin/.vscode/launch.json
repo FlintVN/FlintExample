@@ -18,7 +18,7 @@
                 "../../../JDK/FlintESPJDK/Src/esp.io",
             ],
             // "launchFlintJVMServerCommand": "FlintJVM -g",
-            "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM22",
+            "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM19",
         }
     ]
 }
