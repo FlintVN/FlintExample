@@ -1,6 +1,4 @@
 
-import java.math.BigInteger;
-import machine.gpio.*;
 import network.*;
 
 public class main {

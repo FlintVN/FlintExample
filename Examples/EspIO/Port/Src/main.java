@@ -1,7 +1,5 @@
 
-import java.math.BigInteger;
 import machine.gpio.*;
-import network.*;
 
 public class main {
     public static void main(String[] args) throws Exception {
