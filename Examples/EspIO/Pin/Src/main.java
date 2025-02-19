@@ -4,11 +4,11 @@ import machine.gpio.*;
 public class main {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello form ESP32");
-        Pin.setMode(15, PinMode.OUTPUT);
+        Pin led = new Pin(15, PinMode.OUTPUT);
         while(true) {
-            Pin.writePin(15, true);
+            led.set();
             Thread.sleep(200);
-            Pin.writePin(15, false);
+            led.reset();
             Thread.sleep(200);
         }
     }

@@ -7,7 +7,7 @@ public class main {
         Port port = new Port(2, 4, 5, 12).setMode(PinMode.OUTPUT);
         int i = 0;
         while(true) {
-            port.writePort(i);
+            port.write(i);
             i++;
             Thread.sleep(100);
         }
