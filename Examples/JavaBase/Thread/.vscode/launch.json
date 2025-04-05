@@ -6,6 +6,7 @@
             "request": "launch",
             "name": "Debug with FlintJVM",
             "cwd": "Bin",
+            "port": "COM19",
             "install": true,
             "mainClass": "main",
             "classPath": [
@@ -15,7 +16,7 @@
                 "Src",
                 "../../../JDK/FlintJDK/Src/java.base",
             ],
-            "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM15",
+            // "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM15",
         }
     ]
 }

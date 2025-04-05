@@ -6,6 +6,7 @@
             "request": "launch",
             "name": "Debug with FlintJVM",
             "cwd": "Bin",
+            "port": "COM19",
             "install": true,
             "mainClass": "main",
             "classPath": [
@@ -18,7 +19,7 @@
                 "../../../JDK/FlintESPJDK/Src/esp.io",
             ],
             // "launchFlintJVMServerCommand": "FlintJVM -g",
-            "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM19",
+            // "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM19",
         }
     ]
 }
