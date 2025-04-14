@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "-g",
+                "--module-path=\"../../../jdk/java.base.jar;../../../jdk/esp.io.jar\"",
+                "--add-modules=esp.io",
+                "-XDstringConcat=inline",
+                "--system=none",
+                "-d",
+                "bin",
+                "src/*.java"
+            ],
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        }
+    ]
+}

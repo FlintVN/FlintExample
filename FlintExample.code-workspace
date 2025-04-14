@@ -2,31 +2,31 @@
 	"folders": [
 		{
 			"name": "HelloWorld",
-			"path": "Examples/JavaBase/HelloWorld"
+			"path": "examples/JavaBase/HelloWorld"
 		},
 		{
 			"name": "Thread",
-			"path": "Examples/JavaBase/Thread"
+			"path": "examples/JavaBase/Thread"
 		},
 		{
 			"name": "Pin",
-			"path": "Examples/EspIO/Pin"
+			"path": "examples/EspIO/Pin"
 		},
 		{
 			"name": "Port",
-			"path": "Examples/EspIO/Port"
+			"path": "examples/EspIO/Port"
 		},
 		{
 			"name": "WiFi_AP",
-			"path": "Examples/EspIO/WiFi_AP"
+			"path": "examples/EspIO/WiFi_AP"
 		},
 		{
 			"name": "WiFi_Scan",
-			"path": "Examples/EspIO/WiFi_Scan"
+			"path": "examples/EspIO/WiFi_Scan"
 		},
 		{
 			"name": "WiFi_Station",
-			"path": "Examples/EspIO/WiFi_Station"
+			"path": "examples/EspIO/WiFi_Station"
 		}
 	],
 	"settings": {}
