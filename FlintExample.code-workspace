@@ -1,6 +1,10 @@
 {
 	"folders": [
 		{
+			"name": "WiFi_Station",
+			"path": "examples/EspIO/WiFi_Station"
+		},
+		{
 			"name": "HelloWorld",
 			"path": "examples/JavaBase/HelloWorld"
 		},
@@ -23,10 +27,6 @@
 		{
 			"name": "WiFi_Scan",
 			"path": "examples/EspIO/WiFi_Scan"
-		},
-		{
-			"name": "WiFi_Station",
-			"path": "examples/EspIO/WiFi_Station"
 		}
 	],
 	"settings": {}
