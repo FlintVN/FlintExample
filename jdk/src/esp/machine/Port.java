@@ -6,8 +6,15 @@ public class Port extends PortController {
     private final byte[] pins;
 
     private static native void setMode(byte[] pins, int mode);
-    private static native int readPort(byte[] pins);
-    private static native void writePort(byte[] pins, int value);
+
+    @Override
+    public native int read();
+
+    @Override
+    public native void write(int value);
+
+    @Override
+    public native void reset();
 
     public Port(byte... pins) {
         if(pins == null || (pins.length < 1) || (pins.length > 32)) {
@@ -57,20 +64,5 @@ public class Port extends PortController {
         };
         Port.setMode(pins, m);
         return this;
-    }
-
-    @Override
-    public int read() {
-        return Port.readPort(pins);
-    }
-
-    @Override
-    public void write(int value) {
-        Port.writePort(pins, value);
-    }
-
-    @Override
-    public void reset() {
-        Port.writePort(pins, 0);
     }
 }

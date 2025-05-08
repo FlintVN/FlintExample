@@ -36,7 +36,10 @@ public abstract sealed class Executable implements Member permits Constructor, M
 
     public abstract Class<?>[] getParameterTypes();
 
-    public abstract Type[] getGenericParameterTypes();
+    public Type[] getGenericParameterTypes() {
+        // TODO
+        return getParameterTypes();
+    }
 
     public abstract int getParameterCount();
 

@@ -6,8 +6,18 @@ public class Pin extends PinController {
     final int pin;
 
     private static native void setMode(int pin, int mode);
-    private static native boolean readPin(int pin);
-    private static native void writePin(int pin, boolean level);
+
+    @Override
+    public native boolean read();
+
+    @Override
+    public native void write(boolean level);
+
+    @Override
+    public native void set();
+
+    @Override
+    public native void reset();
 
     public Pin(int pin) {
         this.pin = pin;
@@ -29,25 +39,5 @@ public class Pin extends PinController {
         };
         Pin.setMode(pin, m);
         return this;
-    }
-
-    @Override
-    public boolean read() {
-        return Pin.readPin(pin);
-    }
-
-    @Override
-    public void write(boolean level) {
-        Pin.writePin(pin, level);
-    }
-
-    @Override
-    public void set() {
-        Pin.writePin(pin, true);
-    }
-
-    @Override
-    public void reset() {
-        Pin.writePin(pin, false);
     }
 }

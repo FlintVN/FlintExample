@@ -13,9 +13,7 @@ public interface Comparator<T> {
     boolean equals(Object obj);
 
     default Comparator<T> reversed() {
-        // TODO
-        // return Collections.reverseOrder(this);
-        throw new UnsupportedOperationException();
+        return Collections.reverseOrder(this);
     }
 
     default Comparator<T> thenComparing(Comparator<? super T> other) {
@@ -50,14 +48,12 @@ public interface Comparator<T> {
     }
 
     public static <T extends Comparable<? super T>> Comparator<T> reverseOrder() {
-        // TODO
-        // return Collections.reverseOrder();
-        throw new UnsupportedOperationException();
+        return Collections.reverseOrder();
     }
 
     @SuppressWarnings("unchecked")
     public static <T extends Comparable<? super T>> Comparator<T> naturalOrder() {
-        return (Comparator<T>) Comparators.NaturalOrderComparator.INSTANCE;
+        return (Comparator<T>)Comparators.NaturalOrderComparator.INSTANCE;
     }
 
     public static <T> Comparator<T> nullsFirst(Comparator<? super T> comparator) {
