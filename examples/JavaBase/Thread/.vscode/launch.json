@@ -9,13 +9,8 @@
             "port": "COM19",
             "install": true,
             "mainClass": "main",
-            "classPath": [
-                "../../../jdk/bin"
-            ],
-            "sourcePath": [
-                "src",
-                "../../../jdk/src"
-            ],
+            "sourcePath": "src",
+            "modulePath": "../../../jdk/java.base.jar"
             // "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM15",
         }
     ]

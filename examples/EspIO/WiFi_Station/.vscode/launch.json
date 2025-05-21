@@ -9,13 +9,11 @@
             "port": "COM19",
             "install": true,
             "mainClass": "main",
-            "classPath": [
-                "../../../jdk/bin"
-            ],
-            "sourcePath": [
-                "src",
-                "../../../jdk/src"
-            ],
+            "sourcePath": "src",
+            "modulePath": [
+                "../../../jdk/esp.io.jar",
+                "../../../jdk/java.base.jar"
+            ]
             // "launchFlintJVMServerCommand": "FlintJVM -g",
             // "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM19",
         }
