@@ -1,33 +1,37 @@
 {
-    "folders": [
-        {
-            "name": "HelloWorld",
-            "path": "examples/JavaBase/HelloWorld"
-        },
-        {
-            "name": "Thread",
-            "path": "examples/JavaBase/Thread"
-        },
-        {
-            "name": "Pin",
-            "path": "examples/FlintIO/Pin"
-        },
-        {
-            "name": "Port",
-            "path": "examples/FlintIO/Port"
-        },
-        {
-            "name": "WiFi_AP",
-            "path": "examples/FlintNetwork/WiFi_AP"
-        },
-        {
-            "name": "WiFi_Scan",
-            "path": "examples/FlintNetwork/WiFi_Scan"
-        },
-        {
-            "name": "WiFi_Station",
-            "path": "examples/FlintNetwork/WiFi_Station"
-        },
-    ],
-    "settings": {}
+	"folders": [
+		{
+			"name": "HelloWorld",
+			"path": "examples/JavaBase/HelloWorld"
+		},
+		{
+			"name": "Thread",
+			"path": "examples/JavaBase/Thread"
+		},
+		{
+			"name": "Pin",
+			"path": "examples/FlintIO/Pin"
+		},
+		{
+			"name": "Port",
+			"path": "examples/FlintIO/Port"
+		},
+		{
+			"name": "WiFi_AP",
+			"path": "examples/FlintNetwork/WiFi_AP"
+		},
+		{
+			"name": "WiFi_Scan",
+			"path": "examples/FlintNetwork/WiFi_Scan"
+		},
+		{
+			"name": "WiFi_Station",
+			"path": "examples/FlintNetwork/WiFi_Station"
+		},
+		{
+			"name": "SpiMaster",
+			"path": "examples/FlintIO/SpiMaster"
+		}
+	],
+	"settings": {}
 }
