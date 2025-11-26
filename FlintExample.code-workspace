@@ -31,6 +31,10 @@
 		{
 			"name": "SpiMaster",
 			"path": "examples/FlintIO/SpiMaster"
+		},
+		{
+			"name": "I2cMaster",
+			"path": "examples/FlintIO/I2cMaster"
 		}
 	],
 	"settings": {}
