@@ -1,0 +1,46 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "-g",
+                "--module-path=\"../../../jdk/java.base.jar;../../../jdk/flint.net.jar\"",
+                "--add-modules=flint.net",
+                "-XDstringConcat=inline",
+                "--system=none",
+                "-d",
+                "bin",
+                "src/*.java"
+            ],
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": {
+                "owner": "java",
+                "fileLocation": ["relative", "${workspaceFolder}"],
+                "pattern": [
+                    {
+                        "regexp": "^(.*\\.java):(\\d+):\\s(error|warning):\\s(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "severity": 3,
+                        "message": 4
+                    }
+                ]
+            }
+        }
+    ]
+}

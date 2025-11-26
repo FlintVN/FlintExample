@@ -10,8 +10,12 @@
             "install": true,
             "mainClass": "Main",
             "sourcePath": "src",
-            "modulePath": "../../../jdk/java.base.jar"
-            // "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM15",
+            "modulePath": [
+                "../../../jdk/flint.net.jar",
+                "../../../jdk/java.base.jar"
+            ]
+            // "launchFlintJVMServerCommand": "FlintJVM -g",
+            // "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM5",
         }
     ]
 }
