@@ -29,6 +29,10 @@
 			"path": "examples/FlintNetwork/WiFi_Station"
 		},
 		{
+			"name": "SerialPort",
+			"path": "examples/FlintIO/SerialPort"
+		},
+		{
 			"name": "SpiMaster",
 			"path": "examples/FlintIO/SpiMaster"
 		},

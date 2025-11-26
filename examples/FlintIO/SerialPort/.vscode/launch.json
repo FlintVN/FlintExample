@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "flint-debug",
+            "request": "launch",
+            "name": "Debug with FlintJVM",
+            "cwd": "bin",
+            "port": "COM5",
+            "install": true,
+            "mainClass": "Main",
+            "sourcePath": "src",
+            "modulePath": [
+                "../../../jdk/flint.io.jar",
+                "../../../jdk/java.base.jar"
+            ]
+            // "launchFlintJVMServerCommand": "FlintJVM -g",
+            // "launchFlintJVMServerCommand": "${workspaceFolder}/../../../Tool/FlintUartServer COM19",
+        }
+    ]
+}
