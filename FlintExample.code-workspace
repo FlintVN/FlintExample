@@ -43,6 +43,10 @@
 		{
 			"name": "OneWire",
 			"path": "examples/FlintIO/OneWire"
+		},
+		{
+			"name": "BitStream",
+			"path": "examples/FlintIO/BitStream"
 		}
 	],
 	"settings": {}
