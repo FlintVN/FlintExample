@@ -41,6 +41,10 @@
 			"path": "examples/FlintIO/I2cMaster"
 		},
 		{
+			"name": "I2sMaster",
+			"path": "examples/FlintIO/I2sMaster"
+		},
+		{
 			"name": "OneWire",
 			"path": "examples/FlintIO/OneWire"
 		},
