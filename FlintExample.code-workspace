@@ -17,16 +17,12 @@
 			"path": "examples/FlintIO/Port"
 		},
 		{
-			"name": "WiFi_AP",
-			"path": "examples/FlintNetwork/WiFi_AP"
+			"name": "Adc",
+			"path": "examples/FlintIO/Adc"
 		},
 		{
-			"name": "WiFi_Scan",
-			"path": "examples/FlintNetwork/WiFi_Scan"
-		},
-		{
-			"name": "WiFi_Station",
-			"path": "examples/FlintNetwork/WiFi_Station"
+			"name": "Dac",
+			"path": "examples/FlintIO/Dac"
 		},
 		{
 			"name": "SerialPort",
@@ -51,6 +47,18 @@
 		{
 			"name": "BitStream",
 			"path": "examples/FlintIO/BitStream"
+		},
+		{
+			"name": "WiFi_AP",
+			"path": "examples/FlintNetwork/WiFi_AP"
+		},
+		{
+			"name": "WiFi_Scan",
+			"path": "examples/FlintNetwork/WiFi_Scan"
+		},
+		{
+			"name": "WiFi_Station",
+			"path": "examples/FlintNetwork/WiFi_Station"
 		}
 	],
 	"settings": {}
