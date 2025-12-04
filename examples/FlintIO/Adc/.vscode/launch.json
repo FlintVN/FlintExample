@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "flint-debug",
+            "request": "launch",
+            "name": "Debug with FlintJVM",
+            "cwd": "${workspaceFolder}",
+            "port": "COM5",
+            "install": true,
+            "mainClass": "Main",
+            "classPath": "bin",
+            "sourcePath": "src",
+            "modulePath": [
+                "../../../jdk/flint.io.jar",
+                "../../../jdk/java.base.jar"
+            ]
+        }
+    ]
+}
