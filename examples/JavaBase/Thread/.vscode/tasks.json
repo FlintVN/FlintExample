@@ -8,11 +8,8 @@
             "args": [
                 "-g",
                 "--module-path=../../../jdk/java.base.jar",
-                "-XDstringConcat=inline",
-                "--system=none",
-                "-d",
-                "bin",
-                "src/*.java"
+                "-XDstringConcat=inline", "--system=none",
+                "-d", "bin", "src/*.java"
             ],
             "presentation": {
                 "echo": false,
