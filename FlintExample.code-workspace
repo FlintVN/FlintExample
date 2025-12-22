@@ -50,15 +50,15 @@
 		},
 		{
 			"name": "WiFi_AP",
-			"path": "examples/FlintNetwork/WiFi_AP"
+			"path": "examples/FlintNet/WiFi_AP"
 		},
 		{
 			"name": "WiFi_Scan",
-			"path": "examples/FlintNetwork/WiFi_Scan"
+			"path": "examples/FlintNet/WiFi_Scan"
 		},
 		{
 			"name": "WiFi_Station",
-			"path": "examples/FlintNetwork/WiFi_Station"
+			"path": "examples/FlintNet/WiFi_Station"
 		}
 	],
 	"settings": {}

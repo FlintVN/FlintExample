@@ -7,19 +7,19 @@
             "command": "javac",
             "osx": {"args": [
                 "-g",
-                "--module-path=\"../../../jdk/java.base.jar:../../../jdk/flint.io.jar\"",
+                "--module-path=\"../../../jdk/java.base.jar:../../../jdk/flint.net.jar\"",
                 "--add-modules=flint.net", "-XDstringConcat=inline",
                 "--system=none", "-d", "bin", "src/*.java"
             ]},
             "linux": {"args": [
                 "-g",
-                "--module-path=\"../../../jdk/java.base.jar:../../../jdk/flint.io.jar\"",
+                "--module-path=\"../../../jdk/java.base.jar:../../../jdk/flint.net.jar\"",
                 "--add-modules=flint.net", "-XDstringConcat=inline",
                 "--system=none", "-d", "bin", "src/*.java"
             ]},
             "windows": {"args": [
                 "-g",
-                "--module-path=\"../../../jdk/java.base.jar;../../../jdk/flint.io.jar\"",
+                "--module-path=\"../../../jdk/java.base.jar;../../../jdk/flint.net.jar\"",
                 "--add-modules=flint.net", "-XDstringConcat=inline",
                 "--system=none", "-d", "bin", "src/*.java"
             ]},
