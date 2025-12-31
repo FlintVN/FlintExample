@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         try {
-            Can can = new Can("CAN-SelfTest", 1, 500_000, 21, 22);
+            Can can = new Can("CAN-SelfTest", 1, 500_000).setTxPin(21).setRxPin(22);
             can.open();
             can.start();
 

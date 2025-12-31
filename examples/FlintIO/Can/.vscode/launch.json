@@ -14,7 +14,8 @@
             "modulePath": [
                 "../../../jdk/flint.io.jar",
                 "../../../jdk/java.base.jar"
-            ]
+            ],
+            "preLaunchTask": "build"
         }
     ]
 }
