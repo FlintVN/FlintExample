@@ -1,7 +1,7 @@
 
 // This example implements using OneWire to read temperature from DS18B20 sensor
 
-import flint.machine.*;
+import flint.io.*;
 
 import java.io.IOException;
 

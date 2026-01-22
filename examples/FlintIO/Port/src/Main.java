@@ -1,5 +1,5 @@
 
-import flint.machine.*;
+import flint.io.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {

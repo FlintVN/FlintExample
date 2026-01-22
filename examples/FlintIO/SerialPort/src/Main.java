@@ -1,5 +1,5 @@
 
-import flint.machine.*;
+import flint.io.*;
 
 import java.io.IOException;
 

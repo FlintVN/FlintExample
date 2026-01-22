@@ -1,7 +1,7 @@
 
 // This example implements using I2C Master to read time from RTC DS1307
 
-import flint.machine.*;
+import flint.io.*;
 
 import java.io.IOException;
 

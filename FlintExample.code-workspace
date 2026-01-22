@@ -25,6 +25,10 @@
 			"path": "examples/FlintIO/Dac"
 		},
 		{
+			"name": "TouchPad",
+			"path": "examples/FlintIO/TouchPad"
+		},
+		{
 			"name": "SerialPort",
 			"path": "examples/FlintIO/SerialPort"
 		},
