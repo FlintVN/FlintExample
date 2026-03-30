@@ -10,7 +10,7 @@ Before you start, make sure you have installed:
 ## How to run example:
 - Open an example you want to run in vscode. For example, open the **FlintExample/examples/FlintIO/Pin** folder.
 - Update the `port` parameter in the **launch.json** file to match the actual port connected to your board.
-- To compile the project, click `Terminal > Run Build Task...` or press `Ctrl` + `Shift` + `B`. After successful compilation, **bin/Main.class** file will be created.
+- To compile the project, click `Terminal > Run Build Task...` or press `Ctrl` + `Shift` + `B`, alternatively, you can also use the `make` command.. After successful compilation, **bin/Main.class** file will be created.
 - Click `Run > Start Debugging` or press `F5` to run and debug the project.
 
 *You can also open the entire project as **Multi-root Workspaces** by opening the **FlintExample.code-workspace** file.*

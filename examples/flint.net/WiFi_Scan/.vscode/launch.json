@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "flint-debug",
+            "request": "launch",
+            "name": "Debug with FlintJVM",
+            "port": "COM5",
+            "program": "bin/jar/FlintApp.jar",
+            "sourcePath": "src",
+            "modulePath": [
+                "../../../lib/java.base.jar",
+                "../../../lib/flint.io.jar",
+                "../../../lib/flint.net.jar"
+            ]
+        }
+    ]
+}
