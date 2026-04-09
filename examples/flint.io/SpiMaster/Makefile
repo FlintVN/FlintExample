@@ -16,16 +16,15 @@ JFLAGS              :=  $(OPT) -Xlint:all -XDstringConcat=inline --system=none -
 SOURCES 			:=  $(shell find $(SRC_DIR) -name "*.java")
 JAR_DIR				:=  $(OUT_DIR)/jar
 BUILD_DIR			:=  $(OUT_DIR)/build
-CLASSES 			:=  $(SOURCES:$(SRC_DIR)/%.java=$(BUILD_DIR)/%.class)
 JAR_OUT				:=  $(JAR_DIR)/$(APP_NAME).jar
 
 all: $(JAR_OUT)
 
-$(BUILD_DIR)/%.class: $(SRC_DIR)/%.java Makefile
-	@echo Compiling $<
-	@$(JC) $(JFLAGS) -d $(BUILD_DIR) $<
+build: Makefile
+	@echo Compiling $(APP_NAME)
+	@$(JC) $(JFLAGS) -d $(BUILD_DIR) $(SOURCES)
 
-$(JAR_OUT): $(CLASSES) Makefile
+$(JAR_OUT): build Makefile
 	@echo Creating $@
 	@$(JAR) c0fe $@ $(MAIN_CLASS) -C $(BUILD_DIR) "."
 
